@@ -1,6 +1,6 @@
 import React from "react";
 
-const AmountControl = ({ amount, onDecrease, onIncrease }) => {
+const AmountControl = React.memo(({ amount, onDecrease, onIncrease }) => {
   return (
     <>
       <div className="menu-amount-wrap">
@@ -13,6 +13,6 @@ const AmountControl = ({ amount, onDecrease, onIncrease }) => {
       </div>
     </>
   );
-};
+});
 
 export default AmountControl;
