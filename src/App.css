@@ -1,1 +1,22 @@
 @import "reset.css";
+
+@font-face {
+  font-family: "NanumSquareRound";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: "NanumSquareRound";
+}
+
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
