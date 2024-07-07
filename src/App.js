@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import MenuWrapper from "./components/Menu/MenuWrapper";
-import MordalWrapper from "./components/Modals/MordalWrapper";
+import ModalWrapper from "./components/Modals/ModalWrapper";
 
 function App() {
   // 모달과 헤더에서 isClicked를 사용하고 싶어서 최상위 컴포넌트에 작성
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <MordalWrapper isClicked={isClicked} />
+      <ModalWrapper isClicked={isClicked} />
       <Header isClicked={isClicked} onCartClick={cartClickHandle} />
       <MenuWrapper />
     </>
