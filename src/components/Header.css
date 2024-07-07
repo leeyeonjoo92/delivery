@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  border-bottom: 2px solid #000;
+  padding: 10px 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.header-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.header-cart-img {
+  width: 22px;
+  height: 22px;
+  margin-left: 5px;
+}
