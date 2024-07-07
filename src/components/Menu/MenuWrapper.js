@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import MenuList from "./MenuList";
 
 const MenuWrapper = () => {
-	return (
-		<div>
-			menuwrapper
-		</div>
-	);
+  return (
+    <div className="menu-list-wrapper">
+      <MenuList />
+    </div>
+  );
 };
 
 export default MenuWrapper;
