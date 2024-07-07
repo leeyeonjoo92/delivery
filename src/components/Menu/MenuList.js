@@ -49,8 +49,6 @@ const MenuList = () => {
     [setMenuObjs]
   );
 
-	
-
   const amountPlusHandle = useCallback(
     (index) => {
       setMenuObjs((prevmenuObjs) =>
